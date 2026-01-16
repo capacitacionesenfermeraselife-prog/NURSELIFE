@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Centro de Capacitaciones Nurselife</title>
+<style>
+:root{
+--primary:#6a00ff;
+--secondary:#00e5a8;
+--accent:#ff2d95;
+--dark:#0b0b1f;
+--light:#f4f6ff;
+}
+*{box-sizing:border-box}
+body{
+margin:0;
+font-family:'Segoe UI',Arial,sans-serif;
+background:linear-gradient(135deg,#0b0b1f,#1b0f3a);
+color:#fff;
+}
+header{
+background:linear-gradient(135deg,var(--primary),var(--accent));
+padding:70px 20px;
+text-align:center;
+}
+header h1{font-size:2.8em;margin:0}
+section{max-width:1200px;margin:auto;padding:70px 20px;}
+h2{text-align:center;}
+.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:30px;}
+.card{background:rgba(255,255,255,0.08);border-radius:18px;overflow:hidden;}
+.card img{width:100%;height:200px;object-fit:cover}
+.card h3{margin:15px;}
+.btn{display:block;margin:15px;padding:14px;background:#00e5a8;border-radius:30px;text-align:center;color:#000;font-weight:bold;text-decoration:none;}
+.whatsapp-float{
+position:fixed;bottom:25px;right:25px;
+background:#25d366;padding:16px 20px;border-radius:50px;color:#000;
+font-weight:bold;text-decoration:none;}
+</style>
+</head>
+<body>
+<header>
+<h1>Centro de Capacitaciones Nurselife</h1>
+<p>Formación presencial • Alta empleabilidad</p>
+</header>
+
+<section>
+<h2>Nuestros Cursos</h2>
+<div class="services">
+<div class="card"><img src="enfermeria.jpg"><h3>Auxiliar en Enfermería</h3><a class="btn" href="https://wa.me/593969580321">WhatsApp</a></div>
+<div class="card"><img src="farmacia.jpg"><h3>Auxiliar en Farmacia</h3><a class="btn" href="https://wa.me/593969580321">WhatsApp</a></div>
+<div class="card"><img src="parvulo.jpg"><h3>Auxiliar en Párvulo</h3><a class="btn" href="https://wa.me/593969580321">WhatsApp</a></div>
+<div class="card"><img src="veterinaria.jpg"><h3>Auxiliar en Veterinaria</h3><a class="btn" href="https://wa.me/593969580321">WhatsApp</a></div>
+<div class="card"><img src="belleza.jpg"><h3>Belleza Integral</h3><a class="btn" href="https://wa.me/593969580321">WhatsApp</a></div>
+<div class="card"><img src="contable.jpg"><h3>Auxiliar Contable</h3><a class="btn" href="https://wa.me/593969580321">WhatsApp</a></div>
+<div class="card"><img src="prehospitalaria.jpg"><h3>Atención Prehospitalaria</h3><a class="btn" href="https://wa.me/593969580321">WhatsApp</a></div>
+</div>
+</section>
+
+<a class="whatsapp-float" href="https://wa.me/593969580321">WhatsApp</a>
+</body>
+</html>
